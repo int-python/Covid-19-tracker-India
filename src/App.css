@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  scrollbar-width: thin;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app__dropdown {
+  background-color: white;
+  margin-left: 10px !important;
+  margin-top: -15px !important ;
+
+}
+.right_card h3{
+  margin-top: 10px !important;
+  color: #31c0b4;
+  font-style: italic;
+}
+.app__header {
+  margin-bottom: 20px;
+}
+.app__header > img{
+  width : 50px;
+  height : 50px;
+  margin-left: -15px;
+}
+
+.app__header > h5 {
+  color: #070707;
+  font-size: 20px;
+  margin-top: -55px;
+  margin-left: 50px;
+  
+}
+.app__header > p{
+  margin-left: 50px;
+  font-size: 13px;
+  color: rgb(129, 129, 129);
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  position: relative;
+}
+.confirmed{
+  background: #fdd8d8;
+  color:red;
+  margin-left: -10px;
+  height: 40px;
+}
+.con{
+  color:red !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+  margin-left: -1px !important;
+  margin-top: -5px !important;
+}
+.vaccinated{
+  background: #d5ebfa;
+  color: blue !important;
+  margin-left: -10px ;
+  height: 40px;
+}
+.vac{
+  color: blue !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+  margin-left: -1px !important;
+  margin-top: -5px !important;
+}
+.recovered{
+  background: #d3f3db;
+  color: green;
+  margin-left: -10px ;
+  height: 40px;
+}
+.rec{
+  color: green !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+  margin-left: -1px !important;
+  margin-top: -5px !important;
+}
+.deceased{
+  background: rgb(250, 249, 249);
+  color: gray;
+  margin-left: -10px ;
+  height: 40px;
+}
+.dec{
+  color: gray !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+  margin-left: -1px !important;
+  margin-top: -5px !important;
+}
+
+.app__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
+.app__left{
+  flex: 0.5;
+}
+.bott_left_card{
+  margin-top: 25px;
+  border-radius: 25px !important;
+  width: 530px;
+  height: 460px;
+}
+.table{
+  overflow: scroll;
+  scrollbar-width: thin;
+  height: 445px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 518px;
+}
+.table th{
+  color: coral;
+  text-align: left;
+}
+.table td{
+  padding: 0.7rem;
+}
+.top_left_card{
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
+  height: 175px;
+  border-radius: 25px !important;
+  
+}
+.doughnut{
+  margin-left: -160px;
+}
+.doughnut ul{
+  list-style: none;
+  margin-top: -140px;
+  margin-left: 360px;
+}
+.v::before {
+  content: "\25CF";
+  color: #144fcc;
+  font-size:30px;
+}
+.d::before {
+  content: "\25CF";
+  color: #5f6666;
+  font-size:30px;
+}
+.r::before {
+  content: "\25CF";
+  color: #2FDE00;
+  font-size:30px;
+}
+.right_card{
+  border-radius: 25px !important;
+  margin-top: 40px;
+  height: 660px;
+}
+.app__right h3 {
+  font-size: 20px;
+  margin-top: -4px;
+}
+.app__right p{
+  font-size: 13px;
+  color: rgb(129, 129, 129);
+  font-weight: bold;
+  margin-top: 2px;
+}
+.mapdiv svg{
+  width: 450px;
+  height: 430px;  
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.mapdiv svg path:hover {
+  fill: rgb(80, 145, 182);
+}
